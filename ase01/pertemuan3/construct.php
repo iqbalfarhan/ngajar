@@ -5,10 +5,10 @@ class Mahasiswa{
   public $last_name;
   public $full_name;
   public $dob;
-  public umur;
+  public $umur;
   public $nim;
   public $kampus;
-  public pria = true;
+  public $pria = true;
 
   public function __construct($firstname, $lastname, $dob, $nim, $kampus = "LP3I Balikpapan")
   {
